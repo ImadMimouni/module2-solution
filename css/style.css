@@ -2,12 +2,11 @@
     box-sizing: border-box;
   }
   
-  .title{ position:relative;
-    width:200px;
+  div.title{ 
+    text-align: center;
     height:80px;
     background:white;
-    left:41%;
-    top:0px;
+  
     }
     
     div.row{
