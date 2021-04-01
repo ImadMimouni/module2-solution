@@ -1,3 +1,97 @@
-/*
-css file
-*/
+* {
+    box-sizing: border-box;
+  }
+  
+  .title{ position:relative;
+    width:200px;
+    height:80px;
+    background:white;
+    left:41%;
+    top:0px;
+    }
+    
+    div.row{
+      padding:5px
+    }
+   div.column{
+     background:gray;
+   }
+   div.column1{
+     background:gray;
+   }
+   .column {
+    position:relative;
+    float: left;
+    width: 30.33%;
+    padding: 0px ;
+    border-style:solid;
+    border-width:2px;  
+    border-color:#000000;
+    height: 300px;
+    top:00px;
+    margin:1%;
+  
+  }
+  .column1 {
+   position:relative;
+    float: left;
+    width: 30.33%;
+    padding: 0px ;
+    border-style:solid;
+    border-width:1px;  
+    border-color:#000000;
+    height: 300px;
+    margin:1% ;
+    top:00px;
+    
+  }
+  
+  h2{
+     width:150px;
+      float: right;
+      margin: 0px;
+      padding: 10px; 
+      border-style:solid;
+      border-width:1px;  
+      border-color:#000000;
+    
+  }
+  h2.h1{    background-color: #090; 
+  }
+  h2.h2{    background-color: #732; 
+  }
+  h2.h3{    background-color: #991; 
+  }
+  p{
+      position: absolute;
+      margin: 0px;
+      padding: 10px; 
+      top: 45px
+  
+  }
+  
+  @media screen and (max-width: 991px) {
+      .column {
+              width: 48%;
+      }
+    }
+    
+    
+    @media screen and (max-width: 768px ) {
+      .column {
+        width: 100%;
+      }
+    }
+  
+    
+    @media screen and (max-width: 991px) {
+      .column1 {
+        width: 98%;
+      }
+    }
+      @media screen and (max-width: 768px) {
+      .column1 {
+              width: 99%;
+      }
+    }
+    
